@@ -263,7 +263,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
 
   (add-hook 'prog-mode-hook 'ggtags-mode)
-  (add-hook 'prog-mode-hook 'helm-gtags-mode)
+  ;;(add-hook 'prog-mode-hook 'helm-gtags-mode)
 
   ;; 显示行号
   (global-linum-mode)
